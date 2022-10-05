@@ -1,9 +1,16 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -11,8 +18,36 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+span {
+  color: red;
+}
+
+p {
+  font-size: 17px;
+}
+
+button {
+  color: navy;
+  background-color: aliceblue;
+  padding: 10px 25px;
+  border-radius: 9px;
+  border: 1px #996600 solid;
+  font-size: 17px;
+  margin-top: 1.5rem;
+  font-family: "Segoe UI";
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+h1.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+  font-style: oblique;
+  color: #333366;
 }
 
 @media (prefers-color-scheme: dark) {
